@@ -55,7 +55,7 @@
     "yargs": "^10.0.3"
   },
   "peerDependencies": {
-    "react": "^16.0.0-0"
+    
   },
   "dependencies": {}
 }
