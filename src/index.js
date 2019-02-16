@@ -53,7 +53,7 @@ function History() {
     clearRedoStack
   };
 }
-export default function undoRedo(reducer) {
+export function undoRedo(reducer) {
   const history = new History();
 
   return function(state, action) {
